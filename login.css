@@ -1,0 +1,40 @@
+body {
+    background-color: #fff;
+}
+.main img{
+    width: 400px;
+    height: 300px;
+}
+form {
+    border: 1px solid #0d1f3b;
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    line-height: 3em;
+    background-color: #f4f4f4;
+    font-family: cursive;
+    border-radius: 10px;
+    box-shadow: 20px 20px 10px rgb(110, 109, 109);
+}
+form label {
+    font-weight: bold;
+}
+form input{
+    width: 200px;
+    height: 30px;
+}
+button{
+    margin: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 100px;
+    width: 200px;
+    background: #0d1f3b;
+    color: #fff;
+}
+button:hover{
+    cursor: pointer;
+    background: #2865c7;
+    color: #fff;
+}
