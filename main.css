@@ -64,7 +64,7 @@ body {
     border-radius: 100px;
 }
 .main img{
-    width: 150px;
+    max-width: 150px;
     height: 150px;
     display: block;
     margin: auto;
@@ -108,7 +108,7 @@ body {
 }
 
 .section {
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     margin-bottom: 100px;
     padding-left: 30px;
@@ -124,7 +124,7 @@ body {
     margin-top: 60px;
     border-radius: 100px;
     float: right;
-    width: 160px;
+    max-width: 160px;
 }
 .section a:hover {
     background-color: #3e5ff3;
@@ -153,7 +153,7 @@ body {
     font-variant: small-caps;
 }
 .stats img{
-    width: 20px;
+    max-width: 20px;
     height: 20px;
     display: block;
     float: left;
@@ -171,7 +171,7 @@ body {
     margin-bottom: 50px;
     border-radius: 100px;
     float: right;
-    width: 200px;
+    max-width: 200px;
     display: block;
     font-size: 12px;
 }
@@ -195,12 +195,12 @@ body {
     width: 0px;
 }
 #invoice td img{
-    width: 20px;
+    max-width: 20px;
     height: 20px;
     display: inline;
 }
 #dwy{
-    width: 750px;
+    max-width: 750px;
     float: left;
     height: unset;
 }
@@ -217,7 +217,7 @@ body {
     padding: 15px;
     border-radius: 100px;
     float: unset;
-    width: 160px;
+    max-width: 160px;
     text-align: center;
     display: block;
     margin: auto;
@@ -227,7 +227,7 @@ body {
     margin-bottom: 30px;
 }
 #rep-table{
-    width: 400px;
+    max-width: 400px;
     text-align: center;
     font-size: 1em;
 }
@@ -275,7 +275,7 @@ body {
     padding: 0px;
     margin: 0px;
     border-radius: 100px;
-    width: 200px
+    max-width: 200px
 }
 .links a:hover{
     color: #0d1f3b;
@@ -284,8 +284,8 @@ body {
 #plan table{
     float: left;
 }
-#plan table, tr, th, td {
-    width: 700px;
+#plan table, #plan tr, #plan th, #plan td {
+    max-width: 700px;
 }
 #plan table th{
     text-align: left;
@@ -294,7 +294,7 @@ body {
     padding: 10px;
 }
 #billing td {
-    width: 900px;
+    max-width: 900px;
 }
 #billing img{
     width: 30px;
@@ -303,7 +303,7 @@ body {
 .footer{
     background-color: #0d1f3b;
     color: #fff;
-    width: 100%; 
+    max-width: 1350px; 
     height: 250px;
     padding: 10px; 
     text-align: center;
