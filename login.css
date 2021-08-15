@@ -1,40 +1,85 @@
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background-color: #fff;
+    background-color: #0d1f3b;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.main img{
-    width: 400px;
-    height: 300px;
+
+a {
+    text-decoration: none;
 }
-form {
-    border: 1px solid #0d1f3b;
-    height: 300px;
-    width: 400px;
+
+#container {
     margin: auto;
-    text-align: center;
-    line-height: 3em;
-    background-color: #f4f4f4;
-    font-family: cursive;
-    border-radius: 10px;
-    box-shadow: 20px 20px 10px rgb(110, 109, 109);
+    max-width: 600px;
+    padding: 50px;
 }
-form label {
+#container h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.form-wrap {
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 20px 20px 30px #000;
+    margin-bottom: 20px;
+}
+
+.form-wrap h2, .form-wrap p {
+    text-align: center;
     font-weight: bold;
 }
-form input{
-    width: 200px;
-    height: 30px;
+
+.form-wrap .form-group {
+    padding: 10px;
 }
-button{
-    margin: 20px;
-    padding: 15px;
+
+.form-wrap .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-wrap .form-group input {
+    width: 100%;
+    padding: 5px;
+}
+
+.form-wrap button {
+    display: block;
+    background-color: #0d1f3b;
+    color: #fff;
+    width: 100%;
     border: none;
-    border-radius: 100px;
-    width: 200px;
-    background: #0d1f3b;
-    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+
 }
-button:hover{
+
+.form-wrap button:hover {
+    background-color: #19335c;
     cursor: pointer;
-    background: #2865c7;
-    color: #fff;
+}
+
+.form-wrap .bottom-text {
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    color: #fff
+}
+
+footer a {
+    color: #3272d8;
 }
